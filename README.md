@@ -26,3 +26,6 @@
 - Go to: https://eu-west-1.console.aws.amazon.com/amplify/apps/d1ousexux8uwfm/overview?region=eu-west-1
 - Choose the main branch
 - Click download
+
+# APIs used
+- https://api.spacexdata.com/v4/launches
