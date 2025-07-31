@@ -3,10 +3,14 @@
 
 # Run backend sandbox environement
 * Open a new terminal
+* npm run backend
+* Or
 * npx ampx sandbox
 
 # Run frontend IOS
 * Open a new terminal
+* npm run frontend
+* Or
 * npx expo start --tunnel
 
 # IOS dev app
