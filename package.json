@@ -10,6 +10,7 @@
     "backend": "npx ampx sandbox",
     "frontend": "npx expo start --tunnel",
     "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
     "prepare": "husky",
     "format-and-stage": "prettier --write ."
   },
@@ -17,6 +18,8 @@
     "aws-amplify": "^6.15.4",
     "expo": "~53.0.20",
     "expo-status-bar": "~2.2.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "react": "19.0.0",
     "react-native": "0.79.5"
   },
@@ -28,8 +31,12 @@
     "aws-cdk-lib": "^2.204.0",
     "constructs": "^10.4.2",
     "esbuild": "^0.25.8",
+    "prettier": "^3.6.2",
     "tsx": "^4.20.3",
     "typescript": "^5.9.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "private": true
 }
