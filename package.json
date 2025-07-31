@@ -12,7 +12,11 @@
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
     "prepare": "husky",
-    "format-and-stage": "prettier --write ."
+    "format-and-stage": "prettier --write .",
+    "type-check": "tsc --noEmit",
+    "update": "npx npm-check-updates -u && npm install",
+    "check-updates": "npx npm-check-updates",
+    "check-updates:update": "npx npm-check-updates -u"
   },
   "dependencies": {
     "aws-amplify": "^6.15.4",
