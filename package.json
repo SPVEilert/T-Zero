@@ -25,7 +25,10 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "react-dom": "19.0.0",
+    "react-native-web": "^0.20.0",
+    "@expo/metro-runtime": "~5.0.4"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.16.1",
