@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
+  SafeAreaView,
   FlatList,
   Text,
   View,
@@ -29,24 +30,28 @@ export default function App() {
 
   if (loading) {
     return (
-      <View style={styles.center}>
-        <ActivityIndicator size="large" />
-      </View>
+      <SafeAreaView style={styles.safeArea}>
+        <View style={styles.center}>
+          <ActivityIndicator size="large" />
+        </View>
+      </SafeAreaView>
     );
   }
 
   return (
-    <FlatList
-      data={launches}
-      keyExtractor={(item) => item.id}
-      renderItem={({ item }) => (
-        <View style={styles.item}>
-          <Text style={styles.title}>{item.name}</Text>
-          <Text>{new Date(item.date_utc).toLocaleString()}</Text>
-          <Text>{item.upcoming ? "Upcoming" : "Past"}</Text>
-        </View>
-      )}
-    />
+    <SafeAreaView style={styles.safeArea}>
+      <FlatList
+        data={launches}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <View style={styles.item}>
+            <Text style={styles.title}>{item.name}</Text>
+            <Text>{new Date(item.date_utc).toLocaleString()}</Text>
+            <Text>{item.upcoming ? "Upcoming" : "Past"}</Text>
+          </View>
+        )}
+      />
+    </SafeAreaView>
   );
 }
 
@@ -64,4 +69,5 @@ const styles = StyleSheet.create({
   center: { flex: 1, justifyContent: "center", alignItems: "center" },
   item: { padding: 10, borderBottomWidth: 1, borderBottomColor: "#ccc" },
   title: { fontWeight: "bold" },
+  safeArea: { flex: 1, backgroundColor: "#fff" },
 });

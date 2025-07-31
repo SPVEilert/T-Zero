@@ -12,7 +12,7 @@
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
     "prepare": "husky",
-    "format-and-stage": "prettier --write .",
+    "format-and-stage": "prettier --write . && git add .",
     "type-check": "tsc --noEmit",
     "update": "npx npm-check-updates -u && npm install",
     "check-updates": "npx npm-check-updates",
