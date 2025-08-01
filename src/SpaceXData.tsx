@@ -116,6 +116,10 @@ const SpaceXData = () => {
         const rocket = rockets[item.rocket];
         const launchpad = launchpads[item.launchpad];
         const isFuture = new Date(item.date_utc).getTime() > Date.now();
+        // Success/failure dot color
+        let dotColor = "#AAA"; // Default gray
+        if (item.success === true) dotColor = "#4CAF50";
+        else if (item.success === false) dotColor = "#F44336";
 
         return (
           <View style={styles.item}>
@@ -137,16 +141,9 @@ const SpaceXData = () => {
                   timeZoneName: "short",
                 })}
               </Text>
-              <Text>
-                {isFuture
-                  ? renderCountdown(item.date_utc)
-                  : item.success === true
-                    ? "Success"
-                    : item.success === false
-                      ? "Failure"
-                      : "Status no data"}
-              </Text>
+              <Text>{isFuture ? renderCountdown(item.date_utc) : null}</Text>
             </View>
+            <View style={[styles.statusDot, { backgroundColor: dotColor }]} />
           </View>
         );
       }}
@@ -243,13 +240,21 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   textContainer: {
-    flex: 1,
+    flexShrink: 1,
     justifyContent: "center",
   },
   title: {
     fontWeight: "bold",
     fontSize: 16,
     marginBottom: 4,
+  },
+  statusDot: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    marginLeft: "auto",
+    marginRight: 10,
+    flexShrink: 0,
   },
 });
 
