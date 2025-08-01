@@ -131,7 +131,13 @@ const SpaceXData = () => {
                 })}
               </Text>
               <Text>
-                {isFuture ? renderCountdown(item.date_utc) : "Launched"}
+                {isFuture
+                  ? renderCountdown(item.date_utc)
+                  : item.success === true
+                    ? "Success"
+                    : item.success === false
+                      ? "Failure"
+                      : "Status no data"}
               </Text>
             </View>
           </View>
