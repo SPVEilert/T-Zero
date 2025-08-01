@@ -87,7 +87,9 @@ const SpaceXData = () => {
               <Text style={styles.title}>{item.name}</Text>
               <Text>{rocket ? `${rocket.name}` : "Rocket: Unknown"}</Text>
               <Text>
-                {launchpad ? `${launchpad.name}` : "Launchpad: Unknown"}
+                {launchpad
+                  ? `${launchpad.name} ${launchpad.locality}`
+                  : "Launchpad: Unknown"}
               </Text>
               <Text>
                 {new Date(item.date_utc).toLocaleString(undefined, {
@@ -138,7 +140,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     height: "auto",
     width: "100%",
-    paddingHorizontal: 10,
+    padding: 8,
     borderBottomWidth: 1,
     borderBottomColor: "#ccc",
   },
