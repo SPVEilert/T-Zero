@@ -16,6 +16,13 @@ type ScrollWindowProps = {
   onLoadMore: () => void;
 };
 
+const CountdownItem: React.FC<{ launchDateUTC: string }> = ({
+  launchDateUTC,
+}) => {
+  const countdown = useCountdown(launchDateUTC);
+  return <Text>{countdown}</Text>;
+};
+
 const ScrollWindow: React.FC<ScrollWindowProps> = ({
   launches,
   loading,
@@ -74,7 +81,7 @@ const ScrollWindow: React.FC<ScrollWindowProps> = ({
                   timeZoneName: "short",
                 })}
               </Text>
-              <Text>{useCountdown(item.launchDateUTC)}</Text>
+              <CountdownItem launchDateUTC={item.launchDateUTC} />
             </View>
             <View style={[styles.statusDot, { backgroundColor: dotColor }]} />
           </View>

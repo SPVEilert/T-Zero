@@ -22,14 +22,12 @@ class LaunchesService {
     const allLaunches: LaunchItem[] = [];
 
     // Try SpaceDevs API
-    /*
     try {
-      const spaceDevsLaunches = await SpaceDevsApi.fetchLaunches(upcoming);
+      const spaceDevsLaunches = await SpaceDevsAPI.fetchLaunches(upcoming);
       allLaunches.push(...spaceDevsLaunches);
     } catch (error: any) {
       console.warn("SpaceDevs API failed:", error.message);
     }
-      */
 
     // Try SpaceX API
     try {
