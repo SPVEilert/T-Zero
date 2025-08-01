@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import {
   FlatList,
   Text,
@@ -8,11 +8,13 @@ import {
   Image,
 } from "react-native";
 
+// Types
 type Launch = {
   id: string;
   name: string;
   date_utc: string;
   upcoming: boolean;
+  success: boolean;
   links: {
     patch: {
       small: string;
@@ -35,33 +37,53 @@ type Launchpad = {
   locality?: string;
 };
 
+// Component
 const SpaceXData = () => {
-  const [launches, setLaunches] = useState<Launch[]>([]);
+  const [upcomingLaunches, setUpcomingLaunches] = useState<Launch[]>([]);
+  const [pastLaunches, setPastLaunches] = useState<Launch[]>([]);
   const [rockets, setRockets] = useState<Record<string, Rocket>>({});
   const [launchpads, setLaunchpads] = useState<Record<string, Launchpad>>({});
-  const [loading, setLoading] = useState(true);
+  const [initialLoading, setInitialLoading] = useState(true);
+  const [pastOffset, setPastOffset] = useState(0);
+  const [loading, setLoading] = useState(false);
+
+  const PAGE_SIZE = 20;
 
   useEffect(() => {
-    const fetchAllData = async () => {
-      setLoading(true);
+    const fetchInitialData = async () => {
+      setInitialLoading(true);
 
-      const [launchesData, rocketsData, launchpadsData] = await Promise.all([
-        fetchLaunches(),
+      const [upcoming, past, rocketData, launchpadData] = await Promise.all([
+        fetchUpcomingLaunches(),
+        fetchPastLaunches(0),
         fetchRockets(),
         fetchLaunchpads(),
       ]);
 
-      setLaunches(launchesData);
-      setRockets(Object.fromEntries(rocketsData.map((r) => [r.id, r])));
-      setLaunchpads(Object.fromEntries(launchpadsData.map((l) => [l.id, l])));
+      setUpcomingLaunches(upcoming);
+      setPastLaunches(past);
+      setRockets(Object.fromEntries(rocketData.map((r) => [r.id, r])));
+      setLaunchpads(Object.fromEntries(launchpadData.map((l) => [l.id, l])));
 
-      setLoading(false);
+      setPastOffset(PAGE_SIZE);
+      setInitialLoading(false);
     };
 
-    fetchAllData().catch(console.error);
+    fetchInitialData().catch(console.error);
   }, []);
 
-  if (loading) {
+  const loadMorePastLaunches = useCallback(async () => {
+    if (loading) return;
+    setLoading(true);
+    const morePast = await fetchPastLaunches(pastOffset);
+    setPastLaunches((prev) => [...prev, ...morePast]);
+    setPastOffset((prev) => prev + PAGE_SIZE);
+    setLoading(false);
+  }, [pastOffset, loading]);
+
+  const allLaunches = [...upcomingLaunches, ...pastLaunches];
+
+  if (initialLoading) {
     return (
       <View style={styles.center}>
         <ActivityIndicator size="large" />
@@ -71,11 +93,23 @@ const SpaceXData = () => {
 
   return (
     <FlatList
-      data={launches}
+      data={allLaunches}
       keyExtractor={(item) => item.id}
+      inverted
+      onEndReached={loadMorePastLaunches}
+      onEndReachedThreshold={0.5}
+      ListFooterComponent={
+        loading ? (
+          <View style={styles.footer}>
+            <ActivityIndicator size="small" />
+          </View>
+        ) : null
+      }
       renderItem={({ item }) => {
         const rocket = rockets[item.rocket];
         const launchpad = launchpads[item.launchpad];
+        const isFuture = new Date(item.date_utc).getTime() > Date.now();
+
         return (
           <View style={styles.item}>
             <Image
@@ -96,7 +130,9 @@ const SpaceXData = () => {
                   timeZoneName: "short",
                 })}
               </Text>
-              <Text>{item.upcoming ? "Upcoming" : "Past"}</Text>
+              <Text>
+                {isFuture ? renderCountdown(item.date_utc) : "Launched"}
+              </Text>
             </View>
           </View>
         );
@@ -105,42 +141,86 @@ const SpaceXData = () => {
   );
 };
 
-// Dedicated fetch functions
-async function fetchLaunches() {
-  return fetchAPIData<Launch>("launches");
-}
-async function fetchRockets() {
-  return fetchAPIData<Rocket>("rockets");
-}
-async function fetchLaunchpads() {
-  return fetchAPIData<Launchpad>("launchpads");
+function renderCountdown(dateStr: string) {
+  const target = new Date(dateStr).getTime();
+  const now = Date.now();
+  const diff = target - now;
+  if (diff <= 0) return "Launched";
+
+  const hours = Math.floor(diff / (1000 * 60 * 60));
+  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+  return `T- ${hours}h ${minutes}m ${seconds}s`;
 }
 
-// Generic fetcher for any endpoint
+// API Helpers
+const BASE_URL = "https://api.spacexdata.com/v4";
+
 async function fetchAPIData<T>(endpoint: string): Promise<T[]> {
   try {
-    const res = await fetch(`https://api.spacexdata.com/v4/${endpoint}`);
-    if (!res.ok) throw new Error(`Failed to fetch ${endpoint}`);
-    const data: T[] = await res.json();
-    return data;
-  } catch (error) {
-    console.error(`Error fetching ${endpoint}:`, error);
+    const res = await fetch(`${BASE_URL}/${endpoint}`);
+    return await res.json();
+  } catch (err) {
+    console.error(`Fetch error for ${endpoint}`, err);
     return [];
   }
 }
 
+async function fetchUpcomingLaunches(): Promise<Launch[]> {
+  const body = {
+    query: { date_utc: { $gt: new Date().toISOString() } },
+    options: { sort: { date_utc: 1 } },
+  };
+  return await postQuery<Launch>("launches/query", body);
+}
+
+async function fetchPastLaunches(offset: number): Promise<Launch[]> {
+  const body = {
+    query: { date_utc: { $lte: new Date().toISOString() } },
+    options: { limit: 20, offset, sort: { date_utc: -1 } },
+  };
+  return await postQuery<Launch>("launches/query", body);
+}
+
+async function fetchRockets() {
+  return fetchAPIData<Rocket>("rockets");
+}
+
+async function fetchLaunchpads() {
+  return fetchAPIData<Launchpad>("launchpads");
+}
+
+async function postQuery<T>(endpoint: string, body: object): Promise<T[]> {
+  try {
+    const res = await fetch(`${BASE_URL}/${endpoint}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+    const json = await res.json();
+    return json.docs;
+  } catch (err) {
+    console.error(`POST query error for ${endpoint}`, err);
+    return [];
+  }
+}
+
+// Styles
 const styles = StyleSheet.create({
   center: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
+  footer: {
+    paddingVertical: 20,
+    alignItems: "center",
+  },
   item: {
     flexDirection: "row",
     alignItems: "center",
-    height: "auto",
-    width: "100%",
-    padding: 8,
+    padding: 10,
     borderBottomWidth: 1,
     borderBottomColor: "#ccc",
   },
