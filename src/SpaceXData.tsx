@@ -46,6 +46,8 @@ const SpaceXData = () => {
   const [initialLoading, setInitialLoading] = useState(true);
   const [pastOffset, setPastOffset] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [noMorePast, setNoMorePast] = useState(false);
+  const [noMoreUpcoming, setNoMoreUpcoming] = useState(false);
 
   const PAGE_SIZE = 20;
 
@@ -73,9 +75,14 @@ const SpaceXData = () => {
   }, []);
 
   const loadMorePastLaunches = useCallback(async () => {
-    if (loading) return;
+    if (loading || noMorePast) return;
     setLoading(true);
     const morePast = await fetchPastLaunches(pastOffset);
+    if (morePast.length === 0) {
+      setNoMorePast(true);
+      setLoading(false);
+      return;
+    }
     setPastLaunches((prev) => [...prev, ...morePast]);
     setPastOffset((prev) => prev + PAGE_SIZE);
     setLoading(false);
