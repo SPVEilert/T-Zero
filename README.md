@@ -29,4 +29,5 @@
 
 # APIs used
 
-- https://api.spacexdata.com/v4/launches
+- https://api.spacexdata.com/v5
+- https://ll.thespacedevs.com/2.0.0

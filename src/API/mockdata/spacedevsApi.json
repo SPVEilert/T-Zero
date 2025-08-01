@@ -1,0 +1,1909 @@
+{
+  "count": 332,
+  "next": "https://ll.thespacedevs.com/2.0.0/launch/?limit=20&net__gt=2025-08-01&offset=20&ordering=net",
+  "previous": null,
+  "results": [
+    {
+      "id": "88b4b179-c4ed-4bd1-868d-ced568a2342a",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/88b4b179-c4ed-4bd1-868d-ced568a2342a/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-crew-11",
+      "name": "Falcon 9 Block 5 | Crew-11",
+      "status": {
+        "id": 3,
+        "name": "Success"
+      },
+      "net": "2025-08-01T15:43:42Z",
+      "window_end": "2025-08-01T15:43:42Z",
+      "window_start": "2025-08-01T15:43:42Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": 40,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 7598,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 6041,
+        "launch_library_id": null,
+        "name": "Crew-11",
+        "description": "SpaceX Crew-11 is the eleventh crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/27/",
+          "name": "Kennedy Space Center, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+          "total_launch_count": 269,
+          "total_landing_count": 0
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 211
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/5/",
+          "name": "Commercial Crew Program",
+          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+          "agencies": [
+            {
+              "id": 80,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/80/",
+              "name": "Boeing",
+              "type": "Commercial"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+          "start_date": "2011-04-18T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program"
+        },
+        {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/17/",
+          "name": "International Space Station",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/16/",
+              "name": "Canadian Space Agency",
+              "type": "Government"
+            },
+            {
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/27/",
+              "name": "European Space Agency",
+              "type": "Multinational"
+            },
+            {
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/37/",
+              "name": "Japan Aerospace Exploration Agency",
+              "type": "Government"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "type": "Government"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme"
+        }
+      ]
+    },
+    {
+      "id": "04459d6c-8ba5-4d38-99ba-23a8b3067116",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/04459d6c-8ba5-4d38-99ba-23a8b3067116/",
+      "launch_library_id": null,
+      "slug": "new-shepard-ns-34",
+      "name": "New Shepard | NS-34",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-03T12:30:00Z",
+      "window_end": "2025-08-03T19:30:00Z",
+      "window_start": "2025-08-03T12:30:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 141,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/141/",
+        "name": "Blue Origin",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8665,
+        "configuration": {
+          "id": 137,
+          "launch_library_id": 9999,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/137/",
+          "name": "New Shepard",
+          "family": "",
+          "full_name": "New Shepard",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7257,
+        "launch_library_id": null,
+        "name": "NS-34",
+        "description": "NS-33 is the 14th crewed flight for the New Shepard program and the 34th in its history.",
+        "launch_designator": null,
+        "type": "Tourism",
+        "orbit": {
+          "id": 15,
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        }
+      },
+      "pad": {
+        "id": 90,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/90/",
+        "agency_id": 141,
+        "name": "West Texas Suborbital Launch Site/ Corn Ranch",
+        "info_url": "https://www.blueorigin.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Corn_Ranch",
+        "map_url": "https://www.google.com/maps?q=31.422878000000000,-104.757121000000000",
+        "latitude": "31.422878",
+        "longitude": "-104.757121",
+        "location": {
+          "id": 29,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/29/",
+          "name": "Corn Ranch, Van Horn, TX, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
+          "total_launch_count": 33,
+          "total_landing_count": 33
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_90_20200803143233.jpg",
+        "total_launch_count": 33
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "ebaf6c77-6f86-4d54-bf4e-137d0dc2c235",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/ebaf6c77-6f86-4d54-bf4e-137d0dc2c235/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-10-30",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-30",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-04T04:11:00Z",
+      "window_end": "2025-08-04T08:11:00Z",
+      "window_start": "2025-08-04T04:11:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8670,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7262,
+        "launch_library_id": null,
+        "name": "Starlink Group 10-30",
+        "description": "A batch of 28 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 325
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "82aef7fd-9664-4e94-970c-5e99eff1b331",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/82aef7fd-9664-4e94-970c-5e99eff1b331/",
+      "launch_library_id": null,
+      "slug": "long-march-12-satnet-leo-group-tbd",
+      "name": "Long March 12 | SatNet LEO Group TBD?",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-04T10:20:00Z",
+      "window_end": "2025-08-04T10:42:00Z",
+      "window_start": "2025-08-04T10:14:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+      },
+      "rocket": {
+        "id": 8600,
+        "configuration": {
+          "id": 517,
+          "launch_library_id": null,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/517/",
+          "name": "Long March 12",
+          "family": "Long March",
+          "full_name": "Long March 12",
+          "variant": "12"
+        }
+      },
+      "mission": {
+        "id": 7192,
+        "launch_library_id": null,
+        "name": "SatNet LEO Group TBD?",
+        "description": "A batch of Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 219,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/219/",
+        "agency_id": null,
+        "name": "Commercial LC-2",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Commercial_Space_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.59755,110.936481",
+        "latitude": "19.59755",
+        "longitude": "110.936481",
+        "location": {
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/8/",
+          "name": "Wenchang Space Launch Site, People's Republic of China",
+          "country_code": "CHN",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+          "total_launch_count": 41,
+          "total_landing_count": 0
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_commercial_lc-2_20231225074048.jpg",
+        "total_launch_count": 1
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "fc69c107-b0ad-47e9-8973-9de75a7c6b6d",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/fc69c107-b0ad-47e9-8973-9de75a7c6b6d/",
+      "launch_library_id": null,
+      "slug": "electron-the-harvest-goddess-thrives-iqps-launch-4",
+      "name": "Electron | The Harvest Goddess Thrives (iQPS Launch 4)",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-05T03:45:00Z",
+      "window_end": "2025-08-05T05:15:00Z",
+      "window_start": "2025-08-05T03:45:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8521,
+        "configuration": {
+          "id": 26,
+          "launch_library_id": 148,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/26/",
+          "name": "Electron",
+          "family": "",
+          "full_name": "Electron",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7111,
+        "launch_library_id": null,
+        "name": "The Harvest Goddess Thrives (iQPS Launch 4)",
+        "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 185,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/185/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1B",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/10/",
+          "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+          "country_code": "NZL",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+          "total_launch_count": 62,
+          "total_landing_count": 17
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_185_20200803143540.jpg",
+        "total_launch_count": 30
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "880a7824-95c4-4724-91bf-83f2a5cba740",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/880a7824-95c4-4724-91bf-83f2a5cba740/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-11-25",
+      "name": "Falcon 9 Block 5 | Starlink Group 11-25",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-05T20:00:00Z",
+      "window_end": "2025-08-06T00:00:00Z",
+      "window_start": "2025-08-05T20:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8671,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7263,
+        "launch_library_id": null,
+        "name": "Starlink Group 11-25",
+        "description": "A batch of satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "total_launch_count": 821,
+          "total_landing_count": 27
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 207
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "594ae0c5-2039-4a1a-a6be-7b0940b2ed2c",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/594ae0c5-2039-4a1a-a6be-7b0940b2ed2c/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-project-kuiper-kf-02",
+      "name": "Falcon 9 Block 5 | Project Kuiper (KF-02)",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-07T14:01:00Z",
+      "window_end": "2025-08-07T14:28:00Z",
+      "window_start": "2025-08-07T14:01:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8112,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 6670,
+        "launch_library_id": null,
+        "name": "Project Kuiper (KF-02)",
+        "description": "Second of a three launches contract for Amazon's Kuiper low Earth orbit satellite internet constellation. 24 satellites are on board.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 325
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/27/",
+          "name": "Project Kuiper",
+          "description": "Amazon's Kuiper Project is a satellite internet initiative aimed at providing high-speed, low-latency broadband connectivity to underserved and remote areas globally. The project involves deploying a constellation of low Earth orbit (LEO) satellites to create a satellite internet network capable of delivering reliable internet access.",
+          "agencies": [
+            {
+              "id": 1058,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/1058/",
+              "name": "Kuiper Systems LLC",
+              "type": "Private"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520kui_program_20231228165031.jpeg",
+          "start_date": "2023-10-16T18:06:00Z",
+          "end_date": null,
+          "info_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
+          "wiki_url": "http://aboutamazon.com/what-we-do/devices-services/project-kuiper"
+        }
+      ]
+    },
+    {
+      "id": "258dd7cc-3e26-45bd-ac48-b58f8a501fb3",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/258dd7cc-3e26-45bd-ac48-b58f8a501fb3/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-17-4",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-4",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-10T02:05:00Z",
+      "window_end": "2025-08-10T06:05:00Z",
+      "window_start": "2025-08-10T02:05:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8668,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7260,
+        "launch_library_id": null,
+        "name": "Starlink Group 17-4",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "total_launch_count": 821,
+          "total_landing_count": 27
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 207
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "e369a238-2746-4400-9396-62e8b7a660c5",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/e369a238-2746-4400-9396-62e8b7a660c5/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-10-20",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-20",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-10T12:16:00Z",
+      "window_end": "2025-08-10T16:16:00Z",
+      "window_start": "2025-08-10T12:16:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8672,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7264,
+        "launch_library_id": null,
+        "name": "Starlink Group 10-20",
+        "description": "A batch of 28 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 325
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "0c5642f3-24ae-4879-a8e9-981ad36a8911",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/0c5642f3-24ae-4879-a8e9-981ad36a8911/",
+      "launch_library_id": 2087,
+      "slug": "vulcan-vc4s-ussf-106",
+      "name": "Vulcan VC4S | USSF-106",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-11T00:07:00Z",
+      "window_end": "2025-08-11T02:12:00Z",
+      "window_start": "2025-08-11T00:07:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 2743,
+        "configuration": {
+          "id": 516,
+          "launch_library_id": null,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/516/",
+          "name": "Vulcan VC4S",
+          "family": "Vulcan",
+          "full_name": "Vulcan VC4S",
+          "variant": "VC4S"
+        }
+      },
+      "mission": {
+        "id": 1141,
+        "launch_library_id": 1334,
+        "name": "USSF-106",
+        "description": "USSF-106 is a mission for the United States Space Force. The launch will deploy various payloads directly into geosynchronous orbit, including the NTS-3 (Navigation Technology Satellite 3), a demonstration navigation satellite testing a new digital signal generator that can be reprogrammed on-orbit to broadcast new signals, improve performance by avoiding and defeating interference, and adding signatures for detecting spoofing attacks.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 3,
+          "name": "Geosynchronous Orbit",
+          "abbrev": "GSO"
+        }
+      },
+      "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 116
+      },
+      "webcast_live": false,
+      "image": null,
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "a2f73993-79f6-4228-bebc-0ada6840e503",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/a2f73993-79f6-4228-bebc-0ada6840e503/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-10-11",
+      "name": "Falcon 9 Block 5 | Starlink Group 10-11",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-13T00:00:00Z",
+      "window_end": "2025-08-13T00:00:00Z",
+      "window_start": "2025-08-13T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8673,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7265,
+        "launch_library_id": null,
+        "name": "Starlink Group 10-11",
+        "description": "A batch of 28 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 325
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "d66bb4a0-cb32-45d8-81ba-d86e43dd3eb2",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/d66bb4a0-cb32-45d8-81ba-d86e43dd3eb2/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-17-5",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-5",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-13T00:00:00Z",
+      "window_end": "2025-08-13T00:00:00Z",
+      "window_start": "2025-08-13T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8674,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7266,
+        "launch_library_id": null,
+        "name": "Starlink Group 17-5",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "total_launch_count": 821,
+          "total_landing_count": 27
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 207
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "1b9bed2f-7e00-4d95-b5d1-7b71c36a4ab1",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/1b9bed2f-7e00-4d95-b5d1-7b71c36a4ab1/",
+      "launch_library_id": 1364,
+      "slug": "ariane-62-metop-sg-a1",
+      "name": "Ariane 62 | Metop-SG A1",
+      "status": {
+        "id": 1,
+        "name": "Go"
+      },
+      "net": "2025-08-13T00:37:00Z",
+      "window_end": "2025-08-13T00:37:00Z",
+      "window_start": "2025-08-13T00:37:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 169,
+        "configuration": {
+          "id": 121,
+          "launch_library_id": 164,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/121/",
+          "name": "Ariane 62",
+          "family": "Ariane",
+          "full_name": "Ariane 62",
+          "variant": "62"
+        }
+      },
+      "mission": {
+        "id": 5920,
+        "launch_library_id": null,
+        "name": "Metop-SG A1",
+        "description": "First of EUMETSAT's second generation of Metop weather satellites.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
+        }
+      },
+      "pad": {
+        "id": 67,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/67/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 4",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Guiana_Space_Centre",
+        "map_url": "https://www.google.com/maps?q=5.256319,-52.786838",
+        "latitude": "5.256319",
+        "longitude": "-52.786838",
+        "location": {
+          "id": 13,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/13/",
+          "name": "Guiana Space Centre, French Guiana",
+          "country_code": "GUF",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+          "total_launch_count": 326,
+          "total_landing_count": 0
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
+        "total_launch_count": 2
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 22,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/22/",
+          "name": "Copernicus",
+          "description": "Copernicus is the European Union's Earth observation programme coordinated and managed for the European Commission by the European Union Agency for the Space Programme in partnership with the European Space Agency (ESA), the EU Member States. It aims at achieving a global, continuous, autonomous, high quality, wide range Earth observation capacity. Providing accurate, timely and easily accessible information to, among other things, improve the management of the environment, understand and mitigate the effects of climate change, and ensure civil security.",
+          "agencies": [
+            {
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/27/",
+              "name": "European Space Agency",
+              "type": "Multinational"
+            },
+            {
+              "id": 1043,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/1043/",
+              "name": "European Union Agency for the Space Programme",
+              "type": "Multinational"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/copernicus_program_20221129162831.png",
+          "start_date": "2014-04-03T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.copernicus.eu",
+          "wiki_url": "https://en.wikipedia.org/wiki/Copernicus_Programme"
+        }
+      ]
+    },
+    {
+      "id": "80af8d63-64aa-4d16-9abd-bdbe167cecb9",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/80af8d63-64aa-4d16-9abd-bdbe167cecb9/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-starlink-group-17-6",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-6",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-17T00:00:00Z",
+      "window_end": "2025-08-17T00:00:00Z",
+      "window_start": "2025-08-17T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8675,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7267,
+        "launch_library_id": null,
+        "name": "Starlink Group 17-6",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "total_launch_count": 821,
+          "total_landing_count": 27
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 207
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink"
+        }
+      ]
+    },
+    {
+      "id": "49678ae6-8664-4d60-9aa2-622c087ed917",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/49678ae6-8664-4d60-9aa2-622c087ed917/",
+      "launch_library_id": null,
+      "slug": "soyuz-21a-bion-m-no-2",
+      "name": "Soyuz 2.1a | Bion-M No. 2",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-20T17:13:00Z",
+      "window_end": "2025-08-20T17:13:00Z",
+      "window_start": "2025-08-20T17:13:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+      },
+      "rocket": {
+        "id": 8083,
+        "configuration": {
+          "id": 24,
+          "launch_library_id": 49,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/24/",
+          "name": "Soyuz 2.1a",
+          "family": "Soyuz",
+          "full_name": "Soyuz 2.1a",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 6637,
+        "launch_library_id": null,
+        "name": "Bion-M No. 2",
+        "description": "Bion-M is the next generation of Russian biological research satellites. While retaining the Vostok/Zenit-derived reentry module of the earlier Bion, the propulsion module has been replace by a Yantar type module, which provides maneuvering capabilities and longer mission support. The mission duration has been increased to up to 6 months by using solar cells for energy generation. The weight of scientific equipment has been increased by 100 kilograms.",
+        "launch_designator": null,
+        "type": "Biology",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/15/",
+          "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+          "country_code": "KAZ",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+          "total_launch_count": 1556,
+          "total_landing_count": 0
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 423
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "2d5f2335-c3c2-4306-9dde-8ec37f348ccf",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/2d5f2335-c3c2-4306-9dde-8ec37f348ccf/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-otv-8-x-37b-ussf-36",
+      "name": "Falcon 9 Block 5 | OTV-8 (X-37B) (USSF-36)",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-21T00:00:00Z",
+      "window_end": "2025-08-21T00:00:00Z",
+      "window_start": "2025-08-21T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 7857,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 6365,
+        "launch_library_id": null,
+        "name": "OTV-8 (X-37B) (USSF-36)",
+        "description": "Eighth flight of the X-37B program. \r\n\r\nThe X-37B is a dynamic and responsive spacecraft responsible for conducting a range of tests and experiments that expedite the development of critical next-generation technologies and operational concepts for reusable space capabilities.\r\n\r\nThe OTV-8 mission in Low Earth Orbit includes operational demonstrations and experiments of next-generation technologies, including laser communications and the highest performing strategic grade quantum inertial sensor ever tested in space. Mission partners include the Air Force Research Lab and the Defense Innovation Unit, respectively.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/27/",
+          "name": "Kennedy Space Center, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+          "total_launch_count": 269,
+          "total_landing_count": 0
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 211
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "e8e93778-657c-401c-9c88-3cd4c7c45c9d",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/e8e93778-657c-401c-9c88-3cd4c7c45c9d/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-dragon-crs-2-spx-33",
+      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-33",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-21T08:00:00Z",
+      "window_end": "2025-08-21T08:00:00Z",
+      "window_start": "2025-08-21T08:00:00Z",
+      "inhold": false,
+      "tbdtime": false,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 7746,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 6264,
+        "launch_library_id": null,
+        "name": "Dragon CRS-2 SpX-33",
+        "description": "33rd commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 325
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/11/",
+          "name": "Commercial Resupply Services",
+          "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+          "agencies": [
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 257,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/257/",
+              "name": "Northrop Grumman Space Systems",
+              "type": "Commercial"
+            },
+            {
+              "id": 1020,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/1020/",
+              "name": "Sierra Nevada Corporation",
+              "type": "Commercial"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+          "start_date": "2008-12-23T00:00:00Z",
+          "end_date": null,
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services"
+        },
+        {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.0.0/program/17/",
+          "name": "International Space Station",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/16/",
+              "name": "Canadian Space Agency",
+              "type": "Government"
+            },
+            {
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/27/",
+              "name": "European Space Agency",
+              "type": "Multinational"
+            },
+            {
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/37/",
+              "name": "Japan Aerospace Exploration Agency",
+              "type": "Government"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.0.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "type": "Government"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme"
+        }
+      ]
+    },
+    {
+      "id": "41d2ac1b-a506-47ae-8e44-8b65f5d6f239",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/41d2ac1b-a506-47ae-8e44-8b65f5d6f239/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-bandwagon-4-dedicated-mid-inclina",
+      "name": "Falcon 9 Block 5 | Bandwagon 4 (Dedicated Mid-Inclination Rideshare)",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-24T00:00:00Z",
+      "window_end": "2025-08-24T00:00:00Z",
+      "window_start": "2025-08-24T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": false,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 7988,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 6514,
+        "launch_library_id": null,
+        "name": "Bandwagon 4 (Dedicated Mid-Inclination Rideshare)",
+        "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        }
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "total_launch_count": 821,
+          "total_landing_count": 27
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 207
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "4ed83998-e8bc-4e53-9e07-1ae931ae712f",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/4ed83998-e8bc-4e53-9e07-1ae931ae712f/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-b",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer B",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-31T00:00:00Z",
+      "window_end": "2025-08-31T00:00:00Z",
+      "window_start": "2025-08-31T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": true,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 7892,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 6401,
+        "launch_library_id": null,
+        "name": "SDA Tranche 1 Transport Layer B",
+        "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 1 Transport Layer.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
+        }
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "total_launch_count": 821,
+          "total_landing_count": 27
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 207
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": []
+    },
+    {
+      "id": "84a2a107-1e44-4994-ad9f-430ee81a741a",
+      "url": "https://ll.thespacedevs.com/2.0.0/launch/84a2a107-1e44-4994-ad9f-430ee81a741a/",
+      "launch_library_id": null,
+      "slug": "falcon-9-block-5-nusantara-lima",
+      "name": "Falcon 9 Block 5 | Nusantara Lima",
+      "status": {
+        "id": 2,
+        "name": "TBD"
+      },
+      "net": "2025-08-31T00:00:00Z",
+      "window_end": "2025-08-31T00:00:00Z",
+      "window_start": "2025-08-31T00:00:00Z",
+      "inhold": false,
+      "tbdtime": true,
+      "tbddate": true,
+      "probability": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.0.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 7545,
+        "configuration": {
+          "id": 164,
+          "launch_library_id": 188,
+          "url": "https://ll.thespacedevs.com/2.0.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 5972,
+        "launch_library_id": null,
+        "name": "Nusantara Lima",
+        "description": "Nusantara Lima is an Indonesian geostationary communications satellite with a capacity of more than 160 Gbps.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 2,
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
+        }
+      },
+      "pad": {
+        "id": 72,
+        "url": "https://ll.thespacedevs.com/2.0.0/pad/72/",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
+        "latitude": "28.458",
+        "longitude": "-80.528",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.0.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "total_launch_count": 1042,
+          "total_landing_count": 66
+        },
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
+        "total_launch_count": 0
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": []
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import React from "react";
-import SpaceXData from "./SpaceXData";
+import LaunchesContainer from "./LaunchesContainer";
 
 const Home = () => {
-  return <SpaceXData />;
+  return <LaunchesContainer />;
 };
 
 export default Home;
