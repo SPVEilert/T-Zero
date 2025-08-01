@@ -124,9 +124,16 @@ const SpaceXData = () => {
         return (
           <View style={styles.item}>
             <Image
-              style={styles.missionPatch}
+              style={[
+                styles.missionPatch,
+                !item.links.patch.small && styles.roundImage,
+              ]}
               resizeMode="contain"
-              source={{ uri: item.links.patch.small }}
+              source={
+                item.links.patch.small
+                  ? { uri: item.links.patch.small }
+                  : require("../assets/spacex-logo.jpeg")
+              }
             />
             <View style={styles.textContainer}>
               <Text style={styles.title}>{item.name}</Text>
@@ -255,6 +262,9 @@ const styles = StyleSheet.create({
     marginLeft: "auto",
     marginRight: 10,
     flexShrink: 0,
+  },
+  roundImage: {
+    borderRadius: 37.5,
   },
 });
 
