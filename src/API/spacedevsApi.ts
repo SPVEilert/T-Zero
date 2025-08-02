@@ -19,7 +19,7 @@ export type SpaceDevsLaunch = {
 
 const PAGE_SIZE = 20;
 
-class SpaceDevsApi {
+class spacedevsAPI {
   private page = 1;
   private noMore = false;
 
@@ -86,4 +86,4 @@ function toISODateOnly(date: Date) {
   return date.toISOString().slice(0, 10);
 }
 
-export default new SpaceDevsApi();
+export default new spacedevsAPI();

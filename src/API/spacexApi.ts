@@ -18,7 +18,7 @@ export type SpaceXLaunch = {
 
 const PAGE_SIZE = 20;
 
-class SpacexAPI {
+class spacexAPI {
   private offset = 0;
   private noMore = false;
 
@@ -91,4 +91,4 @@ class SpacexAPI {
   }
 }
 
-export default new SpacexAPI();
+export default new spacexAPI();

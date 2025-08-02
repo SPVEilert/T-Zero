@@ -1,5 +1,5 @@
-import SpacexAPI from "./spacexAPI";
-import SpaceDevsAPI from "./spacedevsAPI";
+import spacexAPI from "./spacexAPI";
+import spacedevsAPI from "./spacedevsAPI";
 import { LaunchItem } from "./types";
 
 function dedupeLaunches(launches: LaunchItem[]): LaunchItem[] {
@@ -23,7 +23,7 @@ class LaunchesService {
 
     // Try SpaceDevs API
     try {
-      const spaceDevsLaunches = await SpaceDevsAPI.fetchLaunches(upcoming);
+      const spaceDevsLaunches = await spacedevsAPI.fetchLaunches(upcoming);
       allLaunches.push(...spaceDevsLaunches);
     } catch (error: any) {
       console.warn("SpaceDevs API failed:", error.message);
@@ -31,7 +31,7 @@ class LaunchesService {
 
     // Try SpaceX API
     try {
-      const spaceXLaunches = await SpacexAPI.fetchLaunches(upcoming);
+      const spaceXLaunches = await spacexAPI.fetchLaunches(upcoming);
       allLaunches.push(...spaceXLaunches);
     } catch (error: any) {
       console.warn("SpaceX API failed:", error.message);
@@ -51,8 +51,8 @@ class LaunchesService {
   }
 
   resetAll() {
-    SpacexAPI.reset();
-    SpaceDevsAPI.reset();
+    spacexAPI.reset();
+    spacedevsAPI.reset();
   }
 }
 
